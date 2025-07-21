@@ -69,15 +69,16 @@
         "dog": "🐶",
         "frog": "🐸",
         "monkey": "🐒",
-        "snake": "🐍"
+        "snake": "🐍",
+        "owl": "🦉"
       },
       "gridSize": 7,
-      "solution": ["chick", "cat", "dog", "frog", "monkey", "snake", "cat"],
+      "solution": ["chick", "owl", "dog", "frog", "monkey", "snake", "cat"],
       "hints": [
         "🐸 is immediately after 🐶",
         "🐒 is after 🐥",
         "🐍 is not in the last position",
-        "🐱 is before 🐶"
+        "🦉 is before 🐶"
       ]
     }
   ]

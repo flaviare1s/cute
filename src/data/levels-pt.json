@@ -69,12 +69,13 @@
         "cachorro": "🐶",
         "sapo": "🐸",
         "macaco": "🐒",
-        "cobra": "🐍"
+        "cobra": "🐍",
+        "coruja": "🦉"
       },
       "gridSize": 7,
       "solution": [
         "pintinho",
-        "gato",
+        "coruja",
         "cachorro",
         "sapo",
         "macaco",
@@ -85,7 +86,7 @@
         "🐸 está imediatamente depois do 🐶",
         "🐒 está depois do 🐥",
         "🐍 não está na última posição",
-        "🐱 está antes do 🐶"
+        "🦉 está antes do 🐶"
       ]
     }
   ]
