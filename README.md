@@ -1,12 +1,21 @@
-# React + Vite
+# 😺 Cute 🐶
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Joguinho de lógica com múltiplos níveis, suporte a idiomas, tema escuro e sistema de vidas.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## Expanding the ESLint configuration
+- 🧠 Níveis progressivos com dificuldade crescente
+- 💡 Modo claro/escuro com persistência no navegador
+- 🌍 Suporte a múltiplos idiomas (Português e Inglês)
+- ❤️ Sistema de vidas visível com emojis
+- 💾 Salvamento de progresso no `localStorage`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologias
+
+- React + Vite
+- Tailwind CSS
+- `i18next` para internacionalização (i18n)
+- localStorage
