@@ -43,7 +43,7 @@ export const Home = () => {
   };
 
   return (
-    <main className="p-5 sm:p-8 transition-all max-w-[600px] w-full mx-auto text-lg">
+    <main className="p-5 sm:p-8 transition-all max-w-[600px] w-full mx-auto text-xl">
       <LevelInfo levelIndex={levelIndex} dicas={currentLevel.hints} />
       <GameGrid
         levelIndex={levelIndex}

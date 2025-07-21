@@ -13,7 +13,7 @@ export const Header = () => {
           <LanguageSwitcher />
         </div>
       </div>
-      <h1 className="text-2xl text-center">{t("welcome")}</h1>
+      <h1 className="text-2xl text-center w-[380px]">{t("welcome")}</h1>
     </header>
   )
 }

@@ -2,6 +2,7 @@
   "welcome": "Tudo pronto para começar no Cute?",
   "levelComplete": "Parabéns! Você completou o nível!",
   "allLevelsComplete": "Você completou todos os níveis!",
+  "level": "Nível",
   "loading": "Carregando...",
   "checkAnswer": "Verificar Resposta",
   "wrongAnswer": "Resposta incorreta. Tente novamente!",
