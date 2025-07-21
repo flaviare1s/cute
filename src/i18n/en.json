@@ -6,5 +6,6 @@
   "loading": "Loading...",
   "checkAnswer": "Check Answer",
   "wrongAnswer": "Wrong answer. Try again!",
-  "position": "Position"
+  "position": "Position",
+  "gameOver": "Game Over!"
 }

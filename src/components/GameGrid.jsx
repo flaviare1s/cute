@@ -1,9 +1,11 @@
 import { useState, useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
+import { useTheme } from "../context/ThemeContext";
 
-export const GameGrid = ({ levelIndex, onLevelComplete, levelData }) => {
+export const GameGrid = ({ levelIndex, onLevelComplete, onWrongAnswer, levelData }) => {
   const { emojiMap, solution, gridSize } = levelData;
   const { t } = useTranslation();
+  const { theme } = useTheme();
 
   const nomes = useMemo(() => Object.keys(emojiMap), [emojiMap]);
   const [resposta, setResposta] = useState(() => Array(gridSize).fill(nomes[0]));
@@ -30,6 +32,8 @@ export const GameGrid = ({ levelIndex, onLevelComplete, levelData }) => {
     setChecked(true);
     if (acertou) {
       onLevelComplete();
+    } else {
+      onWrongAnswer(); // informar resposta errada
     }
   };
 
@@ -41,8 +45,10 @@ export const GameGrid = ({ levelIndex, onLevelComplete, levelData }) => {
     5: "grid-cols-5",
   }[Math.min(gridSize, 5)] || "grid-cols-3";
 
+  const textColor = theme === "dark" ? "text-[var(--color-text-dark)]" : "text-[var(--color-text-light)]";
+
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col w-full">
       <div className={`grid ${colsClass} gap-2 justify-center my-5`}>
         {resposta.map((nome, i) => (
           <button
@@ -65,9 +71,9 @@ export const GameGrid = ({ levelIndex, onLevelComplete, levelData }) => {
       </button>
 
       {checked && resposta.join() !== solution.join() && (
-        <small className={`mt-2 font-semibold text-red-400`}>
+        <p className={`mt-2 font-semibold ${textColor}`}>
           {t("wrongAnswer")}
-        </small>
+        </p>
       )}
     </div>
   );

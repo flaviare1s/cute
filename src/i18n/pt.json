@@ -6,5 +6,6 @@
   "loading": "Carregando...",
   "checkAnswer": "Verificar Resposta",
   "wrongAnswer": "Resposta incorreta. Tente novamente!",
-  "position": "Posição"
+  "position": "Posição",
+  "gameOver": "Game Over!"
 }
