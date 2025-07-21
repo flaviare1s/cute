@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  /* FONT */
+  --font-baloo: "Baloo 2", sans-serif;
+
+  /* LIGHT THEME */
+  --color-bg-light: #F6F0FF;
+  --color-card-light: #FFFFFF;
+  --color-text-light: #4B2676;
+  --color-accent-light: #FFB6C1;
+  --color-highlight-light: #B6D0FF;
+
+  /* DARK THEME */
+  --color-bg-dark: #1A102B;
+  --color-card-dark: #291A40;
+  --color-text-dark: #DCCEFF;
+  --color-accent-dark: #E39EC1;
+  --color-highlight-dark: #A0C4FF;
+
+  /* SHADOWS */
+  --shadow-2xs: 0 1px rgb(0 0 0 / 0.05);
+  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+:root {
+  @apply font-baloo;
+  background-color: var(--color-bg-light);
+  color: var(--color-text-light);
+}
+
+.dark {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-dark);
+}
