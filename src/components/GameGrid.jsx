@@ -42,7 +42,7 @@ export const GameGrid = ({ levelIndex, onLevelComplete, levelData }) => {
   }[Math.min(gridSize, 5)] || "grid-cols-3";
 
   return (
-    <div>
+    <div className="flex flex-col">
       <div className={`grid ${colsClass} gap-2 justify-center my-5`}>
         {resposta.map((nome, i) => (
           <button
@@ -65,9 +65,9 @@ export const GameGrid = ({ levelIndex, onLevelComplete, levelData }) => {
       </button>
 
       {checked && resposta.join() !== solution.join() && (
-        <p className={`mt-2 font-semibold text-red-400`}>
+        <small className={`mt-2 font-semibold text-red-400`}>
           {t("wrongAnswer")}
-        </p>
+        </small>
       )}
     </div>
   );

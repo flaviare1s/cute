@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <header>
       <div className="flex justify-between items-center mb-4">
-        <h1 className="text-3xl font-medium text-center">Cute</h1>
+        <h1 className="text-4xl font-medium text-center">Cute</h1>
         <div className="flex gap-2 justify-center items-center">
           <ThemeToggle />
           <LanguageSwitcher />
