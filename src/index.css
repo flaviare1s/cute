@@ -6,6 +6,7 @@
 
   /* LIGHT THEME */
   --color-bg-light: #F6F0FF;
+  --color-bg-light2: #C9D9F5;
   --color-card-light: #FFFFFF;
   --color-text-light: #4B2676;
   --color-accent-light: #FFB6C1;
@@ -27,11 +28,11 @@
 
 :root {
   @apply font-baloo;
-  background-color: var(--color-bg-light);
-  color: var(--color-text-light);
-}
-
-.dark {
   background-color: var(--color-bg-dark);
   color: var(--color-text-dark);
+}
+
+.light {
+  background-color: var(--color-bg-light2);
+  color: var(--color-text-light);
 }
