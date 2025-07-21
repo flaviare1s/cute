@@ -1,0 +1,18 @@
+{
+  "pt": {
+    "intro": "Bem-vindo ao Cute! Use as dicas para descobrir a ordem correta dos bichinhos.",
+    "hintExplanation": "As dicas dizem onde cada animal deve estar em relação aos outros.",
+    "strategy": "Tente eliminar as posições impossíveis e preste atenção nas posições relativas.",
+    "sounds": "Clique nos emojis para ouvir o som do animal.",
+    "theme": "Use o botão para alternar entre os temas claro e escuro.",
+    "motivation": "Você está indo muito bem! Continue assim!"
+  },
+  "en": {
+    "intro": "Welcome to Cute! Use the hints to find the correct order of the animals.",
+    "hintExplanation": "Hints tell you where each animal should be relative to the others.",
+    "strategy": "Try eliminating impossible positions and pay attention to relative placements.",
+    "sounds": "Click on the emojis to hear the animal sounds.",
+    "theme": "Use the button to toggle between light and dark themes.",
+    "motivation": "You're doing great! Keep it up!"
+  }
+}

@@ -1,3 +1,9 @@
 {
-  "welcome": "Welcome to Cute!"
+  "welcome": "Welcome to Cute!",
+  "levelComplete": "Congratulations! You completed the level!",
+  "allLevelsComplete": "🎉 You finished all levels!",
+  "loading": "Loading...",
+  "checkAnswer": "Check Answer",
+  "wrongAnswer": "Wrong answer. Try again!",
+  "position": "Position"
 }

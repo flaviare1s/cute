@@ -1,0 +1,85 @@
+{
+  "levels": [
+    {
+      "emojiMap": {
+        "dog": "🐶",
+        "cat": "🐱",
+        "chick": "🐥"
+      },
+      "gridSize": 3,
+      "solution": ["dog", "cat", "chick"],
+      "hints": ["🐶 is not in the last position", "🐱 appears before 🐥"]
+    },
+    {
+      "emojiMap": {
+        "cat": "🐱",
+        "chick": "🐥",
+        "monkey": "🐒",
+        "dog": "🐶"
+      },
+      "gridSize": 4,
+      "solution": ["cat", "chick", "monkey", "dog"],
+      "hints": [
+        "🐱 is in the first position",
+        "🐥 is not in the last position",
+        "🐒 comes after 🐥",
+        "🐶 is in the last position"
+      ]
+    },
+    {
+      "emojiMap": {
+        "frog": "🐸",
+        "dog": "🐶",
+        "cat": "🐱",
+        "chick": "🐥",
+        "monkey": "🐒"
+      },
+      "gridSize": 5,
+      "solution": ["frog", "dog", "cat", "chick", "monkey"],
+      "hints": [
+        "🐸 comes before 🐶",
+        "🐶 is not right before 🐱",
+        "🐥 is in the last position",
+        "🐒 comes after 🐥"
+      ]
+    },
+    {
+      "emojiMap": {
+        "monkey": "🐒",
+        "dog": "🐶",
+        "snake": "🐍",
+        "cat": "🐱",
+        "chick": "🐥",
+        "frog": "🐸"
+      },
+      "gridSize": 6,
+      "solution": ["monkey", "dog", "snake", "cat", "chick", "frog"],
+      "hints": [
+        "🐒 comes before 🐍",
+        "🐶 is not in the first position",
+        "🐥 is in the last position",
+        "🐸 comes after 🐥",
+        "🐱 is between 🐍 and 🐥"
+      ]
+    },
+    {
+      "emojiMap": {
+        "chick": "🐥",
+        "cat": "🐱",
+        "dog": "🐶",
+        "frog": "🐸",
+        "monkey": "🐒",
+        "snake": "🐍"
+      },
+      "gridSize": 7,
+      "solution": ["chick", "cat", "dog", "frog", "monkey", "snake", "cat"],
+      "hints": [
+        "🐥 is in the first position",
+        "🐱 comes before 🐶",
+        "🐸 comes after 🐶",
+        "🐒 comes after 🐸",
+        "🐍 is in the last position"
+      ]
+    }
+  ]
+}

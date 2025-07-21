@@ -1,0 +1,93 @@
+{
+  "levels": [
+    {
+      "emojiMap": {
+        "cachorro": "🐶",
+        "gato": "🐱",
+        "pintinho": "🐥"
+      },
+      "gridSize": 3,
+      "solution": ["cachorro", "gato", "pintinho"],
+      "hints": ["🐶 não está na última posição", "🐱 aparece antes do 🐥"]
+    },
+    {
+      "emojiMap": {
+        "gato": "🐱",
+        "pintinho": "🐥",
+        "macaco": "🐒",
+        "cachorro": "🐶"
+      },
+      "gridSize": 4,
+      "solution": ["gato", "pintinho", "macaco", "cachorro"],
+      "hints": [
+        "🐱 está na primeira posição",
+        "🐥 não está na última posição",
+        "🐒 está depois do 🐥",
+        "🐶 está na última posição"
+      ]
+    },
+    {
+      "emojiMap": {
+        "sapo": "🐸",
+        "cachorro": "🐶",
+        "gato": "🐱",
+        "pintinho": "🐥",
+        "macaco": "🐒"
+      },
+      "gridSize": 5,
+      "solution": ["sapo", "cachorro", "gato", "pintinho", "macaco"],
+      "hints": [
+        "🐸 está antes do 🐶",
+        "🐶 está logo antes do 🐱",
+        "🐥 não está na última posição",
+        "🐒 está depois do 🐥"
+      ]
+    },
+    {
+      "emojiMap": {
+        "macaco": "🐒",
+        "cachorro": "🐶",
+        "cobra": "🐍",
+        "gato": "🐱",
+        "pintinho": "🐥",
+        "sapo": "🐸"
+      },
+      "gridSize": 6,
+      "solution": ["macaco", "cachorro", "cobra", "gato", "pintinho", "sapo"],
+      "hints": [
+        "🐒 está antes da 🐍",
+        "🐶 não está na primeira posição",
+        "🐥 está na última posição",
+        "🐸 está depois do 🐥",
+        "🐱 está entre a 🐍 e o 🐥"
+      ]
+    },
+    {
+      "emojiMap": {
+        "pintinho": "🐥",
+        "gato": "🐱",
+        "cachorro": "🐶",
+        "sapo": "🐸",
+        "macaco": "🐒",
+        "cobra": "🐍"
+      },
+      "gridSize": 7,
+      "solution": [
+        "pintinho",
+        "gato",
+        "cachorro",
+        "sapo",
+        "macaco",
+        "cobra",
+        "gato"
+      ],
+      "hints": [
+        "🐥 está na primeira posição",
+        "🐱 está antes do 🐶",
+        "🐸 está depois do 🐶",
+        "🐒 está depois da 🐸",
+        "🐍 está na última posição"
+      ]
+    }
+  ]
+}
