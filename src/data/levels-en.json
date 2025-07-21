@@ -22,7 +22,7 @@
       "hints": [
         "🐱 is in the first position",
         "🐥 is not in the last position",
-        "🐒 comes after 🐥",
+        "🐒 is after 🐥",
         "🐶 is in the last position"
       ]
     },
@@ -37,10 +37,10 @@
       "gridSize": 5,
       "solution": ["frog", "dog", "cat", "chick", "monkey"],
       "hints": [
-        "🐸 comes before 🐶",
-        "🐶 is not right before 🐱",
-        "🐥 is in the last position",
-        "🐒 comes after 🐥"
+        "🐸 is before 🐶",
+        "🐶 is right before 🐱",
+        "🐥 is not in the last position",
+        "🐒 is after 🐥"
       ]
     },
     {
@@ -55,11 +55,11 @@
       "gridSize": 6,
       "solution": ["monkey", "dog", "snake", "cat", "chick", "frog"],
       "hints": [
-        "🐒 comes before 🐍",
+        "🐒 is before 🐍",
         "🐶 is not in the first position",
-        "🐥 is in the last position",
-        "🐸 comes after 🐥",
-        "🐱 is between 🐍 and 🐥"
+        "🐥 is not in the last position",
+        "🐸 is after 🐥",
+        "🐱 is between 🐒 and 🐸"
       ]
     },
     {
@@ -74,11 +74,10 @@
       "gridSize": 7,
       "solution": ["chick", "cat", "dog", "frog", "monkey", "snake", "cat"],
       "hints": [
-        "🐥 is in the first position",
-        "🐱 comes before 🐶",
-        "🐸 comes after 🐶",
-        "🐒 comes after 🐸",
-        "🐍 is in the last position"
+        "🐸 is immediately after 🐶",
+        "🐒 is after 🐥",
+        "🐍 is not in the last position",
+        "🐱 is before 🐶"
       ]
     }
   ]

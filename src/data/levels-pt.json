@@ -57,9 +57,9 @@
       "hints": [
         "🐒 está antes da 🐍",
         "🐶 não está na primeira posição",
-        "🐥 está na última posição",
+        "🐥 não está na última posição",
         "🐸 está depois do 🐥",
-        "🐱 está entre a 🐍 e o 🐥"
+        "🐱 está entre o 🐒  e o 🐸"
       ]
     },
     {
@@ -82,11 +82,10 @@
         "gato"
       ],
       "hints": [
-        "🐥 está na primeira posição",
-        "🐱 está antes do 🐶",
-        "🐸 está depois do 🐶",
-        "🐒 está depois da 🐸",
-        "🐍 está na última posição"
+        "🐸 está imediatamente depois do 🐶",
+        "🐒 está depois do 🐥",
+        "🐍 não está na última posição",
+        "🐱 está antes do 🐶"
       ]
     }
   ]
