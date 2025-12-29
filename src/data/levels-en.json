@@ -75,7 +75,7 @@
       "gridSize": 7,
       "solution": ["chick", "owl", "dog", "frog", "monkey", "snake", "cat"],
       "hints": [
-        "� is in the first position",
+        "🐥 is in the first position",
         "🦉 is right after 🐥",
         "🐸 is immediately after 🐶",
         "🐍 is between 🐒 and 🐱",
