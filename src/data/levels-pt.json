@@ -55,11 +55,11 @@
       "gridSize": 6,
       "solution": ["macaco", "cachorro", "cobra", "gato", "pintinho", "sapo"],
       "hints": [
-        "🐒 está antes da 🐍",
-        "🐶 não está na primeira posição",
-        "🐥 não está na última posição",
-        "🐸 está depois do 🐥",
-        "🐱 está entre o 🐒  e o 🐸"
+        "🐒 está na primeira posição",
+        "🐶 está logo depois do 🐒",
+        "🐍 está entre o 🐶 e o 🐥",
+        "🐸 está na última posição",
+        "🐱 está logo antes do 🐥"
       ]
     },
     {
@@ -83,10 +83,11 @@
         "gato"
       ],
       "hints": [
+        "� está na primeira posição",
+        "🦉 está logo depois do 🐥",
         "🐸 está imediatamente depois do 🐶",
-        "🐒 está depois do 🐥",
-        "🐍 não está na última posição",
-        "🦉 está antes do 🐶"
+        "🐍 está entre o 🐒 e o 🐱",
+        "🐱 está na última posição"
       ]
     }
   ]
